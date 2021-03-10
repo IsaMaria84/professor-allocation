@@ -21,7 +21,7 @@ public class main {
 	        
 	        String autorUser = l.nextLine();
 	        
-	        System.out.println("O preço do Livro ");
+	        System.out.println("O preÃ§o do Livro ");
 	        
 	        int preco = l.nextInt();
 	        
@@ -45,7 +45,7 @@ public class main {
 	        ArrayList<Livro> usuarios = new ArrayList<Livro>();
 	        
 	        usuarios.add(livro1);
-	        
+	       
 	        System.out.println(livro1.getNome()+"\n"+livro1.getAutor()+"\n"+livro1.getPreco()+"\n"+livro1.getQtdestoque());
 	     }
 	}	
